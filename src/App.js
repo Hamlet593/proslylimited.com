@@ -1,7 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./Components/navbar/Navbar";
-import BackToTop from "./Components/BackToTop/Back"
 import Footer from "./Components/footer/Footer";
 import Home from "./Pages/home/Home";
 import About from "./Pages/about/About";
@@ -38,14 +37,11 @@ import Contact from "./Pages/contact/Contact";
 import Projects from "./Pages/projects/projects";
 import Exhibition1 from "./Pages/projects/ex/ex1";
 import Exhibition2 from "./Pages/projects/ex/ex2";
-import ScrollToTop from "./Components/Scroll/ScrollToTop";
 import Error from "./Pages/error/Error";
-
 
 function App() {
   return (
     <div className="App">
-      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -57,8 +53,8 @@ function App() {
         <Route path="/KarenGrigoryan" element={<Staff4 />} />
         <Route path="/work" element={<Works />} />
         <Route path="/service" element={<Services />} />
-        <Route path="/AutoServices" element={<Service1 />} />
-        <Route path="/ITServices" element={<Service2 />} />
+        <Route path="/mission" element={<Service1 />} />
+        <Route path="/goals" element={<Service2 />} />
         <Route
           path="/MaintenanceOfCommunucationEquipment"
           element={<Service3 />}
@@ -88,7 +84,6 @@ function App() {
         <Route path="/exhibition2" element={<Exhibition2 />} />
         <Route path="/*" element={<Error />} />
       </Routes>
-      <BackToTop />
       <Footer />
     </div>
   );

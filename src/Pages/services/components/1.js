@@ -1,72 +1,33 @@
-import serv1 from "../../../Components/carousel1/pics/Autoservice.jpg";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import "./serv.css";
-import { Row } from "react-bootstrap";
-
-
 function StaffInfo() {
   return (
-    <div className="staffcont">
-      <Row xs={1} md={2} className="g-4">
-        <div className="stinfo">
-          <Col>
-            <p>
-              Vehicles need maintenance from time to time. Our dedicated experts
-              provide high quality vehicle maintenance and service in order to
-              maximize the life and performance of our clients' vehicles.
-              Maintenance of vehicles, including:
-            </p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Diagnosing and Repairing Running Gear Problems</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Diagnostics of Electrical equipment</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Replacement fuels and lubricants</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Filter replacement as needed</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Headlight adjustment</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Adaptation of the air intake flap</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Regulation of injection pump</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Regulation of diesel injection</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Checking of the Running Gear and replacement of it</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Checking of the Suspension and replacement of it</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Regulation of the Steering column</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Checking and charging of the Air conditioning (AC)</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Online or offline staff training (upon request)</p>
-          </Col>
-        </div>
-        <div className="stimg">
-          <Col>
-            {/* <Card>
-              <Card.Img variant="top" src={serv1} />
-            </Card> */}
-          </Col>
-        </div>
-      </Row>
-    </div>
+    <>
+      <div className="staffcont">
+        <h6>
+          Welcome to Prosly Limited, where our vision is to be a pioneering
+          force in the realms of general trading, maintenance, and cutting-edge
+          training services. At Prosly Limited, we aspire to redefine excellence
+          in the multifaceted landscape of business activities, specializing in
+          IT-related training and IT equipment maintenance services.
+        </h6>
+      </div>
+      <div className="staffcont">
+        <p>
+          Our vision is to be the foremost choice for those seeking a dynamic
+          and comprehensive partner in general trading, where quality meets
+          efficiency. We envision a future where our commitment to excellence
+          extends beyond conventional boundaries, setting new benchmarks in
+          maintenance services. At the core of our vision is a dedication to
+          delivering top-notch IT-related training, equipping individuals and
+          businesses with the skills needed to thrive in the digital age. Join
+          us on this journey towards a future where Prosly Limited stands as a
+          beacon of innovation, reliability, and excellence in general trading,
+          maintenance, and transformative IT-related training services.
+          Together, let's shape a tomorrow where businesses flourish,
+          professionals excel, and technology remains at the forefront of
+          progress.
+        </p>
+      </div>
+    </>
   );
 }
 

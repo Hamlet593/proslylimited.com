@@ -27,7 +27,7 @@ function GridExample() {
             <Card.Img variant="top" src={serv2} alt="ITServices"/>
             <Card.Body>
               <Card.Title>
-                <NavLink href="/ITServices">IT Services</NavLink>
+                <NavLink href="/goals">IT Services</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>

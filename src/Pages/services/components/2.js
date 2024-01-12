@@ -1,82 +1,99 @@
-import serv1 from "../../../Components/carousel1/pics/IT.jpg";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import "./serv.css";
-import { Row } from "react-bootstrap";
-
 function StaffInfo() {
   return (
-    <div className="staffcont">
-      <Row xs={1} md={2} className="g-4">
-        <div className="stinfo">
-          <Col className="itinfo">
-            <span>
-              Our company designs, develops, implements, manages and optimizes
-              access to systems and information to answer your business
-              processing and infrastructure needs. We can provide IT service you
-              need to improve efficiency, add value and lower costs.
-            </span>
-          </Col>
-          <Col className="stinfocol">
-            <p>Diagnosing and Repairing Running Gear Problems</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Diagnostics of Electrical equipment</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Replacement fuels and lubricants</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Filter replacement as needed</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Headlight adjustment</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Adaptation of the air intake flap</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Regulation of injection pump</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Regulation of diesel injection</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Checking of the Running Gear and replacement of it</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Checking of the Suspension and replacement of it</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Regulation of the Steering column</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Checking and charging of the Air conditioning (AC)</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Online or offline staff training (upon request)</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Checking of the Suspension and replacement of it</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Regulation of the Steering column</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Checking and charging of the Air conditioning (AC)</p>
-          </Col>
-          <Col className="stinfocol">
-            <p>Online or offline staff training (upon request)</p>
-          </Col>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            Accordion Item #1
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is
+            shown by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
         </div>
-        <div className="stimg">
-          <Col>
-            {/* <Card>
-              <Card.Img variant="top" src={serv1} />
-            </Card> */}
-          </Col>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            Accordion Item #2
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
         </div>
-      </Row>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            Accordion Item #3
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control the
+            overall appearance, as well as the showing and hiding via CSS
+            transitions. You can modify any of this with custom CSS or
+            overriding our default variables. It's also worth noting that just
+            about any HTML can go within the <code>.accordion-body</code>,
+            though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import logo from "./Pics/logo1.png";
 import "./Navbar.css";
 
-
 export default function Header() {
   const [navbar, setNavbar] = useState(false);
   const change = () => {
@@ -37,22 +36,24 @@ export default function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <NavItem>
-              <NavLink className="active" to="/">Home</NavLink>
+              <NavLink className="active" to="/">
+                Home
+              </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/about">About Us</NavLink>
+              <NavLink to="/about">About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/service">Our Services</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/contact">Contact</NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/work">Our Work</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/service">Our Service</NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink to="/products">Our Products</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/contact">Contact Us</NavLink>
             </NavItem>
           </Nav>
         </Navbar.Collapse>

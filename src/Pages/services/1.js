@@ -7,12 +7,12 @@ import ServInfo from "./components/1"
 function Service1() {
   return (
     <div>
-      <title>AUTO SERVICES | PaladiumTechServiceLimited</title>
+      <title>Our Mission | ProslyLimited</title>
       <Carousel slide={false}>
         <Carousel.Item>
           <img className="d-block w-100" src={img} alt="First slide" />
           <Carousel.Caption className="abcap">
-            <p className="abp">AUTO SERVICES</p>
+            <p className="abp">Our Mission</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
