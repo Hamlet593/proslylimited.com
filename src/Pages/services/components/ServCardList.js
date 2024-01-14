@@ -33,7 +33,7 @@ function GridExample() {
             <Card.Img variant="top" alt="ITServices" src={serv2} />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/goals">IT SERVICES</NavLink>
+                <NavLink href="/values">IT SERVICES</NavLink>
               </Card.Title>
               <Card.Text>
                 Our company designs, develops, implements, manages and optimizes

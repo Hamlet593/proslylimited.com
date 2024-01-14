@@ -7,13 +7,13 @@ function Service3() {
   return (
     <div>
       <title>
-        MAINTENANCE OF COMMUNICATION EQUIPMENT | PaladiumTechServiceLimited
+      <title>Our values | ProslyLimited</title>
       </title>
       <Carousel slide={false}>
         <Carousel.Item>
           <img className="d-block w-100" src={img} alt="First slide" />
           <Carousel.Caption className="abcap">
-            <p className="abp">MAINTENANCE OF COMMUNICATION EQUIPMENT </p>
+            <p className="abp">Our values</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

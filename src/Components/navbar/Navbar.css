@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgba(64, 130, 162, 0.8);
+    background-color: #2F2626;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
@@ -9,7 +9,7 @@
 
 .navbar.active {
     padding-top: 10px;
-    background-color: rgba(64, 130, 162);
+    background-color:#4C3C3C;
     transition: 0.5s;
 }
 

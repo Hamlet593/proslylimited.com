@@ -38,6 +38,8 @@ import Projects from "./Pages/projects/projects";
 import Exhibition1 from "./Pages/projects/ex/ex1";
 import Exhibition2 from "./Pages/projects/ex/ex2";
 import Error from "./Pages/error/Error";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import "./index.css"
 
 function App() {
   return (
@@ -54,11 +56,8 @@ function App() {
         <Route path="/work" element={<Works />} />
         <Route path="/service" element={<Services />} />
         <Route path="/mission" element={<Service1 />} />
+        <Route path="/values" element={<Service3 />} />
         <Route path="/goals" element={<Service2 />} />
-        <Route
-          path="/MaintenanceOfCommunucationEquipment"
-          element={<Service3 />}
-        />
         <Route path="/TrainingAndTesting" element={<Service4 />} />
         <Route path="/products" element={<Products />} />
         <Route path="/AutoSpareParts" element={<Product1 />} />

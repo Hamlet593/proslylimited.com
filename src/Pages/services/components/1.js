@@ -1,4 +1,7 @@
+import './serv.css'
+import './forFooter.css'
 function StaffInfo() {
+  
   return (
     <>
       <div className="staffcont">
@@ -11,7 +14,7 @@ function StaffInfo() {
         </h6>
       </div>
       <div className="staffcont">
-        <p>
+        <p className='forFooter'>
           Our vision is to be the foremost choice for those seeking a dynamic
           and comprehensive partner in general trading, where quality meets
           efficiency. We envision a future where our commitment to excellence

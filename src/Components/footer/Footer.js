@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 const Footer = () => (
-  <footer className="page-footer font-small blue pt-4">
+  <footer className="page-footer font-small blue">
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-7 mt-md-0 mt-3">

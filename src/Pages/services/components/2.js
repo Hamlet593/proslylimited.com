@@ -11,7 +11,7 @@ function StaffInfo() {
             aria-expanded="true"
             aria-controls="collapseOne"
           >
-            Accordion Item #1
+            Customer Satisfaction:
           </button>
         </h2>
         <div
@@ -21,14 +21,7 @@ function StaffInfo() {
           data-bs-parent="#accordionExample"
         >
           <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is
-            shown by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It's also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
+            Strive for unparalleled customer satisfaction by consistently delivering high-quality products and services across our diverse business activities.
           </div>
         </div>
       </div>
@@ -42,7 +35,7 @@ function StaffInfo() {
             aria-expanded="false"
             aria-controls="collapseTwo"
           >
-            Accordion Item #2
+            Global Reach:
           </button>
         </h2>
         <div
@@ -52,14 +45,7 @@ function StaffInfo() {
           data-bs-parent="#accordionExample"
         >
           <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is
-            hidden by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It's also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
+            Expand our global footprint by forging strategic partnerships and extending our reach to new markets, offering our comprehensive suite of services to a broader audience.
           </div>
         </div>
       </div>
@@ -73,7 +59,7 @@ function StaffInfo() {
             aria-expanded="false"
             aria-controls="collapseThree"
           >
-            Accordion Item #3
+            Adaptability and Flexibility:
           </button>
         </h2>
         <div
@@ -83,14 +69,31 @@ function StaffInfo() {
           data-bs-parent="#accordionExample"
         >
           <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is
-            hidden by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It's also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
+            Foster an organizational culture that embraces adaptability and flexibility, allowing us to swiftly respond to evolving market dynamics and technological shifts in our pursuit of continuous improvement.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFour"
+            aria-expanded="false"
+            aria-controls="collapseFour"
+          >
+            Market Leadership:
+          </button>
+        </h2>
+        <div
+          id="collapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingFour"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+          Establish and maintain a leadership position in the markets we serve, becoming the preferred choice for businesses seeking to receive a reliable service provision approach.
           </div>
         </div>
       </div>
