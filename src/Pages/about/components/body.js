@@ -25,7 +25,7 @@ function GridExample() {
           <Row xs={1} md={2} className="g-4">
             <Col>
               <Card>
-                <Card.Img variant="top" alt="AutoServices" src={OurMission} />
+                <Card.Img variant="top" alt="OurMission" src={OurMission} />
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/mission">Our Mission</NavLink>

@@ -2,10 +2,10 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "./style.css";
-import serv1 from "./pics/autoservice.svg";
-import serv2 from "./pics/it.svg";
-import serv3 from "./pics/phone.svg";
-import serv4 from "./pics/test.svg";
+import serv1 from "./pics/management.svg";
+import serv2 from "./pics/training.svg";
+import serv3 from "./pics/trading.svg";
+import serv4 from "./pics/maintenance.svg";
 import { NavLink } from "react-bootstrap";
 
 function GridExample() {
@@ -14,20 +14,20 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv1} alt="Auto Services"/>
+            <Card.Img variant="top" src={serv1} alt="Project Management" />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/AutoServices">Auto Services</NavLink>
+                <NavLink href="/projectmanagement">Project Management</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv2} alt="ITServices"/>
+            <Card.Img variant="top" src={serv2} alt="ITServices" />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/values">IT Services</NavLink>
+                <NavLink href="/trainings">IT related training</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -36,24 +36,20 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv3} alt="MaintenanceOfCommunucationEquipment"/>
+            <Card.Img variant="top" src={serv3} alt="trades" />
             <Card.Body className="card-body-list">
               <Card.Title>
-                <NavLink href="/MaintenanceOfCommunucationEquipment">
-                  Maintenance Of Communication Equipment
-                </NavLink>
+                <NavLink href="/trades">General Trading services</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv4} alt="TrainingAndTesting"/>
+            <Card.Img variant="top" src={serv4} alt="maintenance" />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/TrainingAndTesting">
-                  Training And Testing
-                </NavLink>
+                <NavLink href="/maintenance">Maintenance Services</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>

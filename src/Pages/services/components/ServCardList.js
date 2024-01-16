@@ -17,13 +17,15 @@ function GridExample() {
             <Card.Img variant="top" alt="AutoServices" src={serv1} />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/AutoServices">AUTO SERVICES</NavLink>
+                <NavLink href="/projectmanagement">
+                  IT Project Management
+                </NavLink>
               </Card.Title>
               <Card.Text>
-                Vehicles need maintenance from time to time. Our dedicated
-                experts provide high quality vehicle maintenance and service in
-                order to maximize the life and performance of our clients'
-                vehicles.
+                At Prosly Limited, we provide comprehensive services spanning
+                every stage of the project lifecycle – from initiation and
+                planning to coordination and execution, aligning seamlessly with
+                specific requirements and constraints.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -33,7 +35,7 @@ function GridExample() {
             <Card.Img variant="top" alt="ITServices" src={serv2} />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/values">IT SERVICES</NavLink>
+                <NavLink href="/trainings">IT related training</NavLink>
               </Card.Title>
               <Card.Text>
                 Our company designs, develops, implements, manages and optimizes
@@ -46,15 +48,17 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" alt="MaintenanceOfCommunucationEquipment" src={serv3} />
+            <Card.Img variant="top" alt="Trades" src={serv3} />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/MaintenanceOfCommunucationEquipment">MAINTENANCE OF COMMUNICATION EQUIPMENT</NavLink>
+                <NavLink href="/trades">General Trading services</NavLink>
               </Card.Title>
               <Card.Text>
-                Our experts are specialized in the installing, sustaining,
-                troubleshooting and repairing standard, voice, data, video
-                networks and devices in order to minimize equipment downtime.
+                At Prosly Limited, our general trading services transcend
+                traditional boundaries, positioning us as a dynamic link between
+                contract parties in the ever-evolving marketplace. We specialize
+                in facilitating seamless transactions and fostering mutually
+                beneficial partnerships.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -64,12 +68,14 @@ function GridExample() {
             <Card.Img variant="top" alt="TrainingAndTesting" src={serv4} />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/TrainingAndTesting">TRAINING AND TESTING</NavLink>
+                <NavLink href="/maintenance">Maintenance Services</NavLink>
               </Card.Title>
               <Card.Text>
-                Also we ensure the testing for our Customers, purchased products
-                that helps our clients to compare actual and expected results in
-                order to improve quality.
+                We understand the critical role that communication equipment
+                plays in the seamless operation of your business. Our
+                Communication Equipment Maintenance Services are meticulously
+                designed to ensure the optimal performance, reliability, and
+                longevity of your communication infrastructure.
               </Card.Text>
             </Card.Body>
           </Card>

@@ -4,7 +4,6 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Header from "./components/header";
 import Feedback from "./components/feedback";
-import Map from "./components/map";
 import "./contact.css";
 
 function Contact() {
@@ -23,7 +22,6 @@ function Contact() {
           <Col>
             <Card>
               <Card.Body>
-                <Map />
               </Card.Body>
             </Card>
           </Col>

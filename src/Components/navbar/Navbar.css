@@ -1,16 +1,12 @@
 .navbar {
     background-color: #2F2626;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    transition: 0.5s;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
 }
 
 .navbar.active {
-    padding-top: 10px;
     background-color:#4C3C3C;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 .caption {
@@ -25,10 +21,10 @@
 }
 
 .navbar-nav a:hover {
-    color: black
+    color: rgb(101, 128, 129)
 }
 .navbar-nav a:focus {
-    color: black;
+    color: rgb(101, 128, 129)
 }
 
 .nl {
@@ -44,9 +40,9 @@
     padding: 10px;
 }
 
-.collapse .mr-auto {
-    margin-left: 40%;
-}
+/* .collapse .mr-auto {
+    margin-left: 10%;
+} */
 
 .show .mr-auto {
     margin-left: 0%;

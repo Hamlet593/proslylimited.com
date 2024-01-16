@@ -6,8 +6,7 @@ function BasicExample() {
       <p>
         You can contact us.
       </p>
-      <p>by email: info@paladiumtechserviceltd.com</p>
-      <p>by phone: +971 52 725 68 19</p>
+      <p>by email: info@proslylimited.com</p>
     </div>
   );
 }

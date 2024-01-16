@@ -1,23 +1,23 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import img from "../../Components/carousel1/pics/car2.jpg";
-import StaffInfo from "./components/2";
+import img from "../../Components/carousel1/pics/Training.jpg";
+import ServInfo from "./components/5";
 
-function Staff2() {
+function Service5() {
   return (
     <div>
-      <title>Armen Khachatryan | PaladiumTechServiceLimited</title>
+      <title>IT project management | ProslyLimited</title>
       <Carousel slide={false}>
         <Carousel.Item>
           <img className="d-block w-100" src={img} alt="First slide" />
           <Carousel.Caption className="abcap">
-            <p className="abp">ARMEN KHACHATRYAN</p>
+            <p className="abp">IT project management</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <StaffInfo />
+      <ServInfo />
     </div>
   );
 }
 
-export default Staff2;
+export default Service5;

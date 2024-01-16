@@ -23,15 +23,6 @@ export default function Header() {
       variant="secondary"
     >
       <Container className="cont">
-        <NavbarBrand href="/">
-          <img
-            src={logo}
-            height={70}
-            width={100}
-            className="d-inline-block align-top"
-            alt="Logo"
-          ></img>
-        </NavbarBrand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
@@ -49,14 +40,17 @@ export default function Header() {
             <NavItem>
               <NavLink to="/contact">Contact</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink to="/work">Our Work</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/products">Our Products</NavLink>
-            </NavItem>
           </Nav>
         </Navbar.Collapse>
+        <NavbarBrand href="/">
+          <img
+            src={logo}
+            height={70}
+            width={100}
+            className="d-inline-block align-top"
+            alt="Logo"
+          ></img>
+        </NavbarBrand>
       </Container>
     </Navbar>
   );

@@ -4,17 +4,14 @@ import Header from "./Components/navbar/Navbar";
 import Footer from "./Components/footer/Footer";
 import Home from "./Pages/home/Home";
 import About from "./Pages/about/About";
-import Staff from "./Pages/staff/Staff";
-import Staff1 from "./Pages/staff/1";
-import Staff2 from "./Pages/staff/2";
-import Staff3 from "./Pages/staff/3";
-import Staff4 from "./Pages/staff/4";
-import Works from "./Pages/works/Works";
 import Services from "./Pages/services/Services";
 import Service1 from "./Pages/services/1";
 import Service2 from "./Pages/services/2";
 import Service3 from "./Pages/services/3";
-import Service4 from "./Pages/services/4";
+import Service5 from "./Pages/services/5";
+import Service6 from "./Pages/services/6";
+import Service7 from "./Pages/services/7";
+import Service8 from "./Pages/services/8";
 import Products from "./Pages/products/Products";
 import Product1 from "./Pages/products/1";
 import Product2 from "./Pages/products/2";
@@ -38,8 +35,8 @@ import Projects from "./Pages/projects/projects";
 import Exhibition1 from "./Pages/projects/ex/ex1";
 import Exhibition2 from "./Pages/projects/ex/ex2";
 import Error from "./Pages/error/Error";
-import 'bootstrap/dist/css/bootstrap.min.css'
-import "./index.css"
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 
 function App() {
   return (
@@ -48,17 +45,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/staff" element={<Staff />} />
-        <Route path="/ArsenHovsepyan" element={<Staff1 />} />
-        <Route path="/ArmenKhachatryan" element={<Staff2 />} />
-        <Route path="/AshotGevorgyan" element={<Staff3 />} />
-        <Route path="/KarenGrigoryan" element={<Staff4 />} />
-        <Route path="/work" element={<Works />} />
         <Route path="/service" element={<Services />} />
         <Route path="/mission" element={<Service1 />} />
         <Route path="/values" element={<Service3 />} />
         <Route path="/goals" element={<Service2 />} />
-        <Route path="/TrainingAndTesting" element={<Service4 />} />
+        <Route path="/projectmanagement" element={<Service5 />} />
+        <Route path="/trainings" element={<Service6 />} />
+        <Route path="/trades" element={<Service7 />} />
+        <Route path="/maintenance" element={<Service8 />} />
         <Route path="/products" element={<Products />} />
         <Route path="/AutoSpareParts" element={<Product1 />} />
         <Route path="/Helmets" element={<Product2 />} />

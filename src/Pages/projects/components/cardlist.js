@@ -16,13 +16,13 @@ function GridExample() {
             <Card.Img variant="top" alt="AutoServices" src={serv1} />
             <Card.Body>
               <Card.Title>
-                <Link to="/AutoServices">AUTO SERVICES</Link>
+                <Link to="/projectmanagement">IT Project Management</Link>
               </Card.Title>
               <Card.Text>
-                Vehicles need maintenance from time to time. Our dedicated
-                experts provide high quality vehicle maintenance and service in
-                order to maximize the life and performance of our clients'
-                vehicles.
+                At Prosly Limited, we provide comprehensive services spanning
+                every stage of the project lifecycle – from initiation and
+                planning to coordination and execution, aligning seamlessly with
+                specific requirements and constraints.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -32,7 +32,7 @@ function GridExample() {
             <Card.Img variant="top" alt="ITServices" src={serv2} />
             <Card.Body>
               <Card.Title>
-                <Link to="/values">IT SERVICES</Link>
+                <Link to="/trainings">IT related training</Link>
               </Card.Title>
               <Card.Text>
                 Our company designs, develops, implements, manages and optimizes
@@ -45,10 +45,10 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" alt="MaintenanceOfCommunucationEquipment" src={serv3} />
+            <Card.Img variant="top" alt="Trades" src={serv3} />
             <Card.Body>
               <Card.Title>
-                <Link to="/MaintenanceOfCommunucationEquipment">MAINTENANCE OF COMMUNICATION EQUIPMENT</Link>
+                <Link to="/trades">General Trading services</Link>
               </Card.Title>
               <Card.Text>
                 Our experts are specialized in the installing, sustaining,
@@ -63,12 +63,14 @@ function GridExample() {
             <Card.Img variant="top" alt="TrainingAndTesting" src={serv4} />
             <Card.Body>
               <Card.Title>
-                <Link to="/TrainingAndTesting">TRAINING AND TESTING</Link>
+                <Link to="/maintenance">Maintenance Services</Link>
               </Card.Title>
               <Card.Text>
-                Also we ensure the testing for our Customers, purchased products
-                that helps our clients to compare actual and expected results in
-                order to improve quality.
+                We understand the critical role that communication equipment
+                plays in the seamless operation of your business. Our
+                Communication Equipment Maintenance Services are meticulously
+                designed to ensure the optimal performance, reliability, and
+                longevity of your communication infrastructure. Our approach is proactive, aiming to identify and address potential issues before they impact your communication systems.
               </Card.Text>
             </Card.Body>
           </Card>
