@@ -11,7 +11,7 @@ function Service5() {
         <Carousel.Item>
           <img className="d-block w-100" src={img} alt="First slide" />
           <Carousel.Caption className="abcap">
-            <p className="abp">IT project management</p>
+            <p className="abp">IT Project Management</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

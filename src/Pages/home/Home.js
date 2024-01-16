@@ -9,7 +9,7 @@ import { NavLink } from "react-bootstrap";
 function Home() {
   return (
     <div className="Home">
-      <title>Home | PaladiumTechServiceLimited</title>
+      <title>Home | ProslyLimited</title>
       <div>
         <Carousel />
         <div className="text">

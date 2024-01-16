@@ -9,7 +9,7 @@ import "./contact.css";
 function Contact() {
   return (
     <div className="contact">
-      <title>Contact Us | PaladiumTechServiceLimited </title>
+      <title>Contact Us | ProslyLimited </title>
       <Header />
       <Row xs={1} md={2} className="g-4">
           <Col className="emailcol">

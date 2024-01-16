@@ -28,12 +28,7 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img
-              className="icon"
-              variant="top"
-              alt="UAV"
-              src={goals}
-            />
+            <Card.Img className="icon" variant="top" alt="UAV" src={goals} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/goals">Our Goals</NavLink>

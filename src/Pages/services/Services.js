@@ -5,10 +5,9 @@ import ServCardList from "./components/ServCardList"
 function Services () {
     return (
         <div>
-            <title>Our Service | PaladiumTechServiceLimited</title>
+            <title>Our Service | ProslyLimited</title>
             <Header />
             <ServCardList />
-
         </div>
     )
 }
