@@ -24,6 +24,15 @@ export default function Header() {
     >
       <Container className="cont">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <NavbarBrand href="/">
+          <img
+            src={logo}
+            height={70}
+            width={100}
+            className="d-inline-block align-top"
+            alt="Logo"
+          ></img>
+        </NavbarBrand>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <NavItem>
@@ -42,15 +51,6 @@ export default function Header() {
             </NavItem>
           </Nav>
         </Navbar.Collapse>
-        <NavbarBrand href="/">
-          <img
-            src={logo}
-            height={70}
-            width={100}
-            className="d-inline-block align-top"
-            alt="Logo"
-          ></img>
-        </NavbarBrand>
       </Container>
     </Navbar>
   );

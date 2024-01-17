@@ -40,9 +40,9 @@
     padding: 10px;
 }
 
-/* .collapse .mr-auto {
-    margin-left: 10%;
-} */
+.collapse .mr-auto {
+    margin-left: 65%;
+}
 
 .show .mr-auto {
     margin-left: 0%;
