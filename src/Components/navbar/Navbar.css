@@ -1,68 +1,72 @@
 .navbar {
-    background-color: #2F2626;
-    padding-top: 3px !important;
-    padding-bottom: 3px !important;
+  background-color: #2f2626;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
 }
 
 .navbar.active {
-    background-color:#4C3C3C;
-    transition: 0.8s;
+  background-color: #4c3c3c;
+  transition: 0.8s;
 }
 
 .caption {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .navbar-nav a {
-    color: white;
-    font-weight: 600;
-    padding-left: 7px;
-    padding-right: 7px;
+  color: white;
+  font-weight: 600;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 .navbar-nav a:hover {
-    color: rgb(101, 128, 129)
+  color: rgb(101, 128, 129);
 }
 .navbar-nav a:focus {
-    color: rgb(101, 128, 129)
+  color: rgb(101, 128, 129);
 }
 
 .nl {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .show {
-    padding: 10px;
-    margin-left: 0;
+  padding: 10px;
+  margin-left: 0;
 }
 
-.collapsing{
-    padding: 10px;
+.collapsing {
+  padding: 10px;
 }
 
 .collapse .mr-auto {
-    margin-left: 65%;
+  margin-left: 60%;
+}
+
+.brand {
+  margin-left: 5%;
 }
 
 .show .mr-auto {
-    margin-left: 0%;
+  margin-left: 0%;
 }
 
 .show .mr-auto .nl {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .collapsing .mr-auto .nl {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .navbar .cont {
-    padding: 0;
-    border: none;
+  padding: 0;
+  border: none;
 }
 .navbar-toggler {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .active {
-    color: black;
+  color: black;
 }

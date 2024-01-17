@@ -24,11 +24,11 @@ export default function Header() {
     >
       <Container className="cont">
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <NavbarBrand href="/">
+        <NavbarBrand className="brand" href="/">
           <img
             src={logo}
-            height={70}
-            width={100}
+            height={80}
+            width={110}
             className="d-inline-block align-top"
             alt="Logo"
           ></img>
