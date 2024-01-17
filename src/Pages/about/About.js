@@ -6,7 +6,7 @@ import "./about.css"
 function About () {
     return (
         <div>
-            <title>About ProslyLimited</title>
+            <title>About Us | ProslyLimited</title>
             <Header />
             <Body />
         </div>

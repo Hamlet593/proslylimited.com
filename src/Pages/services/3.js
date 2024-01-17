@@ -6,9 +6,7 @@ import ServInfo from "./components/3"
 function Service3() {
   return (
     <div>
-      <title>
       <title>Our values | ProslyLimited</title>
-      </title>
       <Carousel slide={false}>
         <Carousel.Item>
           <img className="d-block w-100" src={img} alt="First slide" />

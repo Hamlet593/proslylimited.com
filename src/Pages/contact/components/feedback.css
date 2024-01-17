@@ -2,9 +2,10 @@
     margin-left: 5px;
     margin-top: 30px;
     margin-bottom: 30px;
+    height: 20vh;
 }
 
 .feedback p {
     font-weight: 500;
-    font-size: 20;
+    font-size: 26;
 }
