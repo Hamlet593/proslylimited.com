@@ -8,20 +8,22 @@ import { NavLink } from "react-bootstrap";
 
 function Home() {
   return (
-    <div className="Home">
-      <title>Home | ProslyLimited</title>
-      <div>
-        <Carousel />
-        <div className="text">
-          <NavLink href="/service">Our Services</NavLink>
+    <>
+      <title>ProslyLimited.com</title>
+      <div className="Home">
+        <div>
+          <Carousel />
+          <div className="text">
+            <NavLink href="/service">Our Services</NavLink>
+          </div>
+          <CardList1 />
+          <div className="text">
+            <NavLink href="/about">Who Are We</NavLink>
+          </div>
+          <CardList2 />
         </div>
-        <CardList1 />
-        <div className="text">
-          <NavLink href="/about">Who Are We</NavLink>
-        </div>
-        <CardList2 />
       </div>
-    </div>
+    </>
   );
 }
 

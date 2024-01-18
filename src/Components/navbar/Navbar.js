@@ -15,43 +15,45 @@ export default function Header() {
   };
   window.addEventListener("scroll", change);
   return (
-    <Navbar
-      sticky="top"
-      collapseOnSelect
-      expand="lg"
-      className={navbar ? "navbar active" : "navbar"}
-      variant="secondary"
-    >
-      <Container className="cont">
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <NavbarBrand className="brand" href="/">
-          <img
-            src={logo}
-            height={80}
-            width={110}
-            className="d-inline-block align-top"
-            alt="Logo"
-          ></img>
-        </NavbarBrand>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <NavItem>
-              <NavLink className="active" to="/">
-                Home
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/about">About</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/service">Our Services</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/contact">Contact</NavLink>
-            </NavItem>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <>
+      <Navbar
+        sticky="top"
+        collapseOnSelect
+        expand="lg"
+        className={navbar ? "navbar active" : "navbar"}
+        variant="secondary"
+      >
+        <Container className="cont">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <NavbarBrand className="brand" href="/">
+            <img
+              src={logo}
+              height={80}
+              width={110}
+              className="d-inline-block align-top"
+              alt="Logo"
+            ></img>
+          </NavbarBrand>
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+              <NavItem>
+                <NavLink className="active" to="/">
+                  Home
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/about">About</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/service">Our Services</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/contact">Contact</NavLink>
+              </NavItem>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </>
   );
 }
